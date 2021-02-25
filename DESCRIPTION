@@ -1,11 +1,13 @@
 Package: mycatsTools
-Type: Package
 Title: Sampling and Randomisation Tools for the MyCATS CRCT
-Version: 0.1.0
-Author: Jones, Ben
-Maintainer: Jones, Ben <b.g.jones@exeter.ac.uk
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Version: 0.1.1
+Authors@R: c(
+  person("Ben", "Jones", email = "b.g.jones@exeter.ac.uk", role = c("aut", "cre"))
+  )
+Description: Sampling and randomisation tools for the MyCATS CRCT
+Depends: R (>= 3.4.0)
+Imports: openxlsx
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.0
