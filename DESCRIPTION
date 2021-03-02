@@ -1,6 +1,6 @@
 Package: mycatsTools
 Title: Sampling and Randomisation Tools for the MyCATS CRCT
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: c(
   person("Ben", "Jones", email = "b.g.jones@exeter.ac.uk", role = c("aut", "cre"))
   )

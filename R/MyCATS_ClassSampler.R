@@ -11,7 +11,6 @@ MyCATS_ClassSampler = function(file_in, file_out, seed = NULL){
   classlist_sampled = data.frame(School.ID = rep(unique(classlist$School.ID), each = 6),
                                  Class.name = rep(NA, length(unique(classlist$School.ID)) * 6),
                                  Year.group = rep(NA, length(unique(classlist$School.ID)) * 6))
-  print(classlist_sampled)
   for(i in unique(classlist$School.ID)){
     recep.classes = sample(classlist$Class.name[classlist$School.ID == i & classlist$Year.group %in% c("Reception", "Reception ")], 2)
     yr1.classes = sample(classlist$Class.name[classlist$School.ID == i & classlist$Year.group == "Year 1"], 2)
